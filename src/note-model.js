@@ -6,7 +6,7 @@ class Note {
     }
 
     viewNote() {
-        return this.text
+        return this.text;
     }
 
 }

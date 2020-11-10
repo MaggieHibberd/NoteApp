@@ -9,8 +9,12 @@ textIsNotEmpty();
 
 function canViewText() {
   let note = new Note("Monday");
-  assert.isTrue(note.viewNote === "Monday");
-}
+  assert.isTrue(note.viewNote() === "Monday");
+};
+
+canViewText();
+
+
 // (function(exports) {
 //   function testTextInstantiation() {
 //     let note = new Note('My favourite language is JavaScript');
