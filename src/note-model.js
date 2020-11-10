@@ -8,6 +8,5 @@ class Note {
     viewNote() {
         return this.text;
     }
-
 }
 

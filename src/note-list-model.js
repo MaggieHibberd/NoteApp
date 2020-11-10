@@ -1,12 +1,17 @@
 'use strict';
 
 class NoteList {
+
     constructor() {
-        this.allNotes = [];
+      this.allNotes = [];
     }
 
-    // viewNote() {
-    //     return this.text;
-    // }
+    add(text){
+      let note = new Note(text);
+      this.allNotes.push(note);
+    };
 
+    all(){
+      return this.allNotes;
+    };
 }
